@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:textSize="35dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Question">
+    </EditText>
+
+    <EditText
+        android:id="@+id/answer_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Answer">
+    </EditText>
+
+    <EditText
+        android:id="@+id/answer_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Answer">
+    </EditText>
+
+    <EditText
+        android:id="@+id/answer_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Third Answer">
+    </EditText>
+
+    <EditText
+        android:id="@+id/answer_option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fourth Answer">
+    </EditText>
+
+    <EditText
+        android:id="@+id/correct_answer_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct answer number">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addQuestion"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Add Question">
+    </Button>
+</LinearLayout>
